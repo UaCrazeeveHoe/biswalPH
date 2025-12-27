@@ -1,0 +1,80 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdf6e3;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.quote {
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  color: #5c3d2e;
+  margin-top: 10px;
+}
+
+.artist-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.artist-card {
+  width: 280px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.artist-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.artist-card h2 {
+  font-size: 1.2rem;
+  margin: 10px 0 5px;
+}
+
+.artist-card p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.button {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border: 1px solid #333;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  color: #B8860B;
+  border-color: #B8860B;
+}
