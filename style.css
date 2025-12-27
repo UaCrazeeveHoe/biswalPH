@@ -78,3 +78,29 @@ hr {
   color: #B8860B;
   border-color: #B8860B;
 }
+.artist-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+}
+
+.artwork {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.artist-page h3 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
